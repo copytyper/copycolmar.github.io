@@ -1,0 +1,518 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  margin: 0 auto;
+  font-family: Raleway;
+}
+
+h1 {
+  font-size: 30px;
+  
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 64px;
+  background-color: white;
+}
+
+.logo {
+  margin-left: 24px;
+  max-height: 32px;
+ 
+}
+
+.logo span {
+  font-size: 25px;
+}
+
+#mast {
+ padding-top: 10px;
+ height: 35px;
+ 
+  
+}
+
+
+.logo .colmar {
+  font-weight: bold;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  
+}
+
+.menu ul li {
+  list-style-type: none;
+  margin-left: 16px;
+  
+}
+
+.menu ul li:last-child{
+  margin-right: 24px;
+}
+
+#maincontent {
+  background-color: rgb(211,211,211);
+  display: flex;
+  align-items: center;
+  width: auto;
+  
+}
+
+.mainimage img {
+  width: 90%;
+  margin: 32px 24px;
+  display: flex;
+  
+}
+
+.maintitle {
+ padding: 30px;
+ align-content: center;
+ justify-content: center;
+
+
+}
+
+
+
+
+.maintitle h1 {
+  color: black;
+  font-size: 45px;
+  
+}
+
+.maintitle h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.button {
+  background-color: black;
+  height: 40px;
+  width: 95%;
+}
+
+.button p {
+  color: white;
+  font-size: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+#content2 {
+  display: flex;
+  margin-top: 32px;
+  background-color: white;
+  
+}
+
+#content2 p:last-child {
+  margin-bottom: 32px;
+}
+
+#maincontent2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  
+}
+
+.contentleft img {
+  width: 100%;
+  
+
+  
+}
+
+#maincontent2 h1 {
+  margin-top: 32px;
+  margin-bottom: 24px;
+  margin-left: 24px;
+  width: 60%;
+}
+#maincontent2 h2 {
+  margin-bottom: 24px;
+  font-size: 18px;
+  margin-left: 24px;
+  font-family: Raleway;
+  font-weight: normal;
+}
+#maincontent2 h4 {
+  font-weight: bold;
+  margin-left: 24px;
+}
+
+#maincontent2 .contentleft {
+  width: 60%;
+}
+
+#maincontent2 .columncontent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    width: 40%;
+}
+.quoteleft {
+  display: block;
+}
+
+.columncontent {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  width: 40%;
+  
+}
+
+
+
+.columncontent h3 h4 {
+  margin-bottom: 8px;
+}
+
+
+
+.columninfo {
+  margin-top: 10%;
+  
+}
+
+.columninfo h3 {
+  margin-bottom: 10px;
+}
+
+.columninfo h4 {
+  margin-bottom: 10px;
+}
+.orientation img, .campus img, .guest img {
+  padding: 16px;
+  height: auto;
+  width: 35%;
+}
+
+
+.guest {
+  background-color: rgb(211,211,211);
+  
+}
+
+
+
+#startlearning {
+ 
+  text-align: center;
+  background-color: rgb(230, 237, 242);
+
+}
+
+#startlearning  h1{
+  
+  padding-top: 32px;
+  
+}
+
+.courseparent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+   margin: 32px 56px;
+  
+}
+
+.courseparent img {
+  width: 100%;
+}
+
+.courses {
+    
+    flex-direction: row;
+    margin: 16px;
+    background-color: white;
+    width: 30%;
+  
+}
+
+.courses .content {
+  padding: 16px;
+}
+
+.content p:nth-child(0n+1)  {
+  color: blue;
+}
+
+
+.courses p {
+  text-align: left;
+  padding: 10px;
+  
+}
+
+#lastcontent {
+  display: flex;
+  justify-content: center;
+ 
+
+  
+}
+
+#lastcontent .thesiscolumn {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+}
+
+
+.thesis {
+  padding-top: 32px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  
+
+}
+
+.thesis h1 {
+  padding-bottom: 2%;
+}
+
+.thesisquote {
+  margin-left: 40px;
+  width: 60%;
+  
+}
+
+.thesisquote h1 {
+  margin-bottom: 2%;
+}
+
+
+.thesisvideo video {
+  width: 60%;
+  margin-left: 40px;
+  
+ 
+}
+
+.thesiscolumn {
+  flex-direction: column;
+  width: 40%;
+  
+}
+.fisma {
+  background-color:rgb(211,211,211);
+  display: flex;
+  align-items: center;
+}
+.fisma img {
+  margin: 16px;
+  height: auto;
+  width: 35%;
+}
+
+.nowandthen {
+  display: flex;
+  align-items: center;
+}
+
+.nowandthen img {
+  margin: 16px;
+  height: auto;
+  width: 35%;
+  }
+  
+
+.lastinfo {
+  display: block;
+  
+  }
+  
+  .lastinfo p {
+    font-size: 20px;
+  }
+
+.thesiscolumn .lastinfo {
+  width: 65%;
+    
+  }
+  
+  .lastleft {
+    width: 60%;
+  }
+
+.lastleft video {
+  width: 95%;
+  margin-left: 24px;
+}
+
+
+.copyright {
+  margin-left: 24px;
+  padding-top: 4%;
+}
+
+.links ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: flex-end;
+  
+  
+}
+
+.links ul li {
+  margin-right: 16px;
+  
+
+}
+
+.mobilenav {
+  display: none;
+}
+
+@media (max-width: 650px) {
+   
+   header {
+     display: none;
+   }
+   
+   .mobilenav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 64px;
+     margin: 12px;
+     
+   }
+   
+   .mobilenav img {
+     width: 50px;
+     height: auto;
+   }
+     #maincontent {
+       background-color: #D9D9D9;
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+       width: 100%;
+     }
+     #maincontent  .mainimage img {
+       width: 100%;
+       margin: 0;
+     }
+     
+     .maintitle {
+       display: block;
+     }
+     
+     .contentleft {
+       display: none;
+     }
+     
+     .courses {
+    background-color: white;
+    border-top: 0.2px solid #D9D9D9;
+    border-bottom: 0.2px solid #D9D9D9;
+    margin: 8px 16px 8px 16px;
+    width: auto;
+     
+     }
+     
+     .courses h1 {
+       font-size: 25px;
+      
+     }
+     .courses img {
+       display: none;
+     }
+     
+     .courses p {
+       display: none;
+     }
+     
+     .courseparent {
+       display: block;
+       justify-content: center;
+       margin: 0 0 32px 0;
+     }
+     
+     .courses .content {
+       width: 20%;
+     }
+     
+     #maincontent2 .columncontent {
+       display: block;
+       margin-top: 16px;
+       width: 100%;
+     }
+     .orientation, .campus, .guest {
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+     }
+     
+     .orientation img, .campus img, .guest img {
+       display: block;
+       width: 100%;
+     }
+     
+     .columninfo {
+       width: auto;
+       margin: 16px;
+     }
+     
+     #lastcontent .thesiscolumn {
+       display: none;
+     }
+     
+     .thesisquote {
+       display: none;
+     }
+     
+     .fisma, .lastinfo, .nowandthen {
+       display: none;
+     }
+     
+     .lastleft video {
+       display: block;
+       margin-top: 16px;
+       width: 100%;
+       margin-left: 0;
+       padding: 0;
+      
+     }
+     .lastleft {
+       width: 100%;
+     }
+     
+     #lastcontent {
+       width: 100%;
+       padding: 0;
+     }
+     
+     #footer p {
+       font-size: 14px;
+     }
+     
+     #footer li {
+       display: none;
+     }
+   }
+
